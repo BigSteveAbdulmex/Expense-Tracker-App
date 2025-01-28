@@ -68,7 +68,7 @@ class _ExpensesState extends State<Expenses> {
   @override
   Widget build(BuildContext context) {
     Widget mainContent = const Center(
-      child: Text('No expensesfound, start adding some!'),
+      child: Text('No expenses found, start adding some!'),
     );
 
     if (_registeredExpenses.isNotEmpty) {
